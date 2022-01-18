@@ -27,66 +27,118 @@
     <!--24 hour percent change & ticker search-->
     <div class="page">
         <div class="row" id="first-row">
-            <div class="col-md-6">
+            <div class="col-md-12">
                 <h4 id="percent-change">Market is down 2.65% today</h4>
-            </div>
-            <div class="col-md-6">
-                <button type="button" id="searchButton" onclick="getInputValue();">Search</button>
-                <input type="text" id="myInput">
             </div>
         </div>
     </div>
     <!--Grid displaying x, y, and z-->
     <div class="grid-container">
         <div class="row">
-            <div class="col grid">
+            <div class="col-md-4" id="gainer">
                 <h4 class="grid-title">Top Gainer (24hr)</h4>
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col">
                         <p>BTC</p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col">
                         <p>$4.21</p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col">
                         <p>+45.64%</p>
                     </div>
                 </div>
             </div>
-            <div class="col grid">
+            <div class="col-md-4" id="loser">
                 <h4 class="grid-title">Top Loser (24hr)</h4>
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col">
                         <p>BTC</p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col">
                         <p>$4.21</p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col">
                         <p>+45.64%</p>
                     </div>
                 </div>
             </div>
-            <div class="col grid">
+            <div class="col-md-4" id="volume">
                 <h4 class="grid-title">Volume (24hr)</h4>
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col">
                         <p>BTC</p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col">
                         <p>$4.21</p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col">
                         <p>+45.64%</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!--Fluid container displaying searched ticker-->
+
+    <div class="placeholder">
+        <div class="row">
+            <div class="col-md-12">
+                <input type="text" id="myInput">
+                <button type="button" id="searchButton" onclick="getInputValue();">Search</button>
+            </div>
+        </div>
+    </div>
+
+    <!--Container displaying grid titles-->
     <div class="container-fluid">
         <div class="row">
-            
+            <div class="col-3">
+                <p>Name</p>
+            </div>
+            <div class="col">
+                <p>Price</p>
+            </div>
+            <div class="col">
+                <p>Change</p>
+            </div>
+            <div class="col">
+                <p>Price Chart</p>
+            </div>
+            <div class="col">
+                <p>Volume</p>
+            </div>
+            <div class="col">
+                <p>Market Cap</p>
+            </div>
+            <div class="col">
+                <p>Supply</p>
+            </div>
+        </div>
+    </div>
+    <!--Fluid container displaying searched ticker-->
+    <div class="container-fluid">
+        <div class="row" id="ordered-list">
+            <div class="col-3">
+                <p>Name</p>
+            </div>
+            <div class="col">
+                <p>Price</p>
+            </div>
+            <div class="col">
+                <p>Change</p>
+            </div>
+            <div class="col">
+                <p>Price Chart</p>
+            </div>
+            <div class="col">
+                <p>Volume</p>
+            </div>
+            <div class="col">
+                <p>Market Cap</p>
+            </div>
+            <div class="col">
+                <p>Supply</p>
+            </div>
         </div>
     </div>
 </body>

@@ -57,32 +57,46 @@ hr.rounded {
 }
 
 #percent-change {
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 #searchButton {
-    float: right;
-    margin-right: 10px;
+    float: left;
+    margin-left: 4px;
 }
 
 #myInput {
-    float: right;
-    margin-right: 4px;
+    float: left;
+    margin-left: 40px;
 }
 
 .grid-container {
-    margin-left: 40px;
-    margin-right: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    height: 80px;
+    width: 1000px;
+    padding-top: 5px;
+    background-color: white;
+    margin: auto;
 }
 
-.grid {
-    border: 1px solid rgba(0, 0, 0, 0.30);
-    background-color: white;
-    margin: 2px;
+#loser {
+    border-left: 1px solid rgba(0, 0, 0, 0.30);
+}
+
+#volume {
+    border-left: 1px solid rgba(0, 0, 0, 0.30);
 }
 
 .grid-title {
     text-align: center;
     font-weight: bold;
     font-size: 20px;
+}
+
+.container-fluid {
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    height: 40px;
+    width: 1000px;
+    padding-top: 5px;
+    background-color: white;
 }

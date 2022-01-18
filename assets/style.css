@@ -1,0 +1,65 @@
+/*
+color palette
+
+#54494B
+#7E8287
+#EEF0F2
+#B98389
+#E77728
+
+*/
+
+body {
+    background-color:#EEF0F2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+    float: left;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #E77728;
+}
+
+.sign-in {
+    float: right;
+    margin-top: 10px;
+    margin-right: 4px;
+    width: 80px;
+    border: 2px solid #E77728;
+    border-radius: 4px;
+    background-color: white;
+    color: #E77728;
+    padding: 8px;
+}
+
+.sign-up {
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 80px;
+    border: none;
+    border-radius: 4px;
+    background-color: #E77728;
+    color: white;
+    padding: 10px;
+}
+
+hr.solid {
+    border-top: 3px solid #7E8287;
+}
+
+#percent-change {
+    margin-left: 10px;
+}
+
+#searchButton {
+    float: right;
+    margin-right: 10px;
+}
+
+#myInput {
+    float: right;
+    margin-right: 4px;
+}

@@ -10,20 +10,31 @@
     <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
+    <!--Header-->
     <header>
         <div class="row">
-            <div class="col-md-2">
+            <div class="col-md-6">
                 <h1 class="title">Bitprice</h1>
             </div>
-            <div class="col-md-8">
-                <!--Placeholder/Empty Space-->
-            </div>
-            <div class="col-md-2">
-                <button class="sign-in">Sign in</button>
+           
+            <div class="col-md-6">
                 <button class="sign-up">Sign up</button>
+                <button class="sign-in">Sign in</button>
             </div>
         </div>
     </header>
-    
+    <hr class="solid">
+    <!--24 hour percent change & ticker search-->
+    <div class="page">
+        <div class="row">
+            <div class="col-md-6">
+                <h4 id="percent-change">Market is down 2.65% today</h4>
+            </div>
+            <div class="col-md-6">
+                <button type="button" id="searchButton" onclick="getInputValue();">Search</button>
+                <input type="text" id="myInput">
+            </div>
+        </div>
+    </div>
 </body>
 </html>

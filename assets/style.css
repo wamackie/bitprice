@@ -46,13 +46,14 @@ body {
     padding: 10px;
 }
 
-hr.solid {
-    border-top: 3px solid #7E8287;
+hr.rounded {
+    border-color: rgba(0, 0, 0, 0.2);
+    width: 99%;
     margin-bottom: 30px;
 }
 
 #first-row {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 #percent-change {
@@ -75,7 +76,7 @@ hr.solid {
 }
 
 .grid {
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.30);
     background-color: white;
     margin: 2px;
 }

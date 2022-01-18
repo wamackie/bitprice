@@ -62,12 +62,18 @@ hr.rounded {
 
 #searchButton {
     float: right;
-    margin-left: 4px;
+    border: none;
+    height: 30px;
+    width: 80px;
+    border-radius: 4px;
+    margin-right: 20px;
+    background-color: #E77728;
+    color: white;
 }
 
 #myInput {
     float: right;
-    margin-left: 40px;
+    margin-right: 4px;
 }
 
 .grid-container {
@@ -77,6 +83,7 @@ hr.rounded {
     padding-top: 5px;
     background-color: white;
     margin: auto;
+    margin-bottom: 15px;
 }
 
 #loser {

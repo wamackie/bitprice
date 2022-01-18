@@ -61,12 +61,12 @@ hr.rounded {
 }
 
 #searchButton {
-    float: left;
+    float: right;
     margin-left: 4px;
 }
 
 #myInput {
-    float: left;
+    float: right;
     margin-left: 40px;
 }
 
@@ -95,7 +95,7 @@ hr.rounded {
 
 .container-fluid {
     border: 1px solid rgba(0, 0, 0, 0.30);
-    height: 40px;
+    height: auto;
     width: 1000px;
     padding-top: 5px;
     background-color: white;

@@ -1,7 +1,7 @@
 //beginning variables
 
 //constants used
-var apiKey = `3D704B89-B667-4AD9-81B5-78CE1D33180C`
+
 //button section
 const signUpBtn = document.querySelector(".sign-up-btn")
 const signInBtn = document.querySelector(".sign-in-btn")

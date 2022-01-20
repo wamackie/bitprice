@@ -22,7 +22,7 @@ body {
     color: #E77728;
 }
 
-.sign-in {
+.sign-in-btn {
     float: right;
     margin-top: 10px;
     margin-right: 4px;
@@ -34,7 +34,7 @@ body {
     padding: 8px;
 }
 
-.sign-up {
+.sign-up-btn {
     float: right;
     margin-top: 10px;
     margin-right: 10px;

@@ -14,17 +14,22 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#moon {
+    float: left;
+    margin-left: 10px;
+    height: 45px;
+    width: 45px;
+}
+
 .title {
     float: left;
     margin: auto;
-    margin-top: 10px;
     margin-left: 10px;
     color: #d6d6d6;
 }
 
 .sign-in-btn {
     float: right;
-    margin-top: 10px;
     margin-right: 4px;
     width: 80px;
     border: none;
@@ -37,7 +42,6 @@ body {
 
 .sign-up-btn {
     float: right;
-    margin-top: 10px;
     margin-right: 10px;
     width: 80px;
     border: none;
@@ -48,13 +52,21 @@ body {
     box-shadow: inset 0 0 14px #5c606e;
 }
 
-#strip {
+#strip-container {
     border-top: 1px solid white;
     border-bottom: 1px solid white;
 }
 
+.grid {
+    display: grid;
+    place-items: center;
+}
+
 .strip-text {
     color: white;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 #first-row {

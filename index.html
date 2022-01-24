@@ -23,14 +23,33 @@
             </div>
         </div>
     </header>
-    <hr class="rounded">
+    <div id="strip">
+        <div class="row">
+            <div class="col">
+                <p class="strip-text">Coins</p>
+            </div>
+            <div class="col">
+                <p class="strip-text">Exchanges</p>
+            </div>
+            <div class="col">
+                <p class="strip-text">Market Cap</p>
+            </div>
+            <div class="col">
+                <p class="strip-text">24h Vol:</p>
+            </div>
+            <div class="col">
+                <p class="strip-text">Dominance</p>
+            </div>
+            <div class="col">
+                <p class="strip-text">Gas</p>
+            </div>
+        </div>
+    </div>
     <!--24 hour percent change & ticker search-->
     <div class="page">
         <div class="row" id="first-row">
-            <div class="col-md-6">
-                <h4 id="percent-change">Market is down 2.65% today</h4>
-            </div>
-            <div class="col-md-6">
+        
+            <div class="col" id="placeholder">
                 <button type="button" id="searchButton" onclick="getInputValue();">Search</button>
                 <input type="text" id="search">
             </div>
@@ -120,10 +139,13 @@
                 <p id="current-price"></p>
             </div>
             <div class="col">
-                <p>+50.00%</p>
+                <p id="current-percent-change"></p>
             </div>
             <div class="col">
-                <p>_/\_/</p>
+                <p id="current-1h-low"></p>
+            </div>
+            <div class="col">
+                <p id="current-1h-high"></p>
             </div>
             <div class="col">
                 <p>$4.7M</p>

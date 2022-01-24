@@ -2,6 +2,9 @@
 
 //constants used
 
+//dom elements
+var tickNameEl = document.getElementById('current-name')
+
 //button section
 const signUpBtn = document.querySelector(".sign-up-btn")
 const signInBtn = document.querySelector(".sign-in-btn")
@@ -25,6 +28,16 @@ function getInputValue() {
         })
         .then(function(data) {
             console.log(data);
+            console.log(data.data.id);
+
+            var tickName = data.data.name
+            tickNameEl.textContent = tickName
+
+            var tickPrice = data.data.market_data.price_usd
+            tickPriceEl.textContent = tickPrice
+
+            console.log(tickPrice)
+
         })
     }
 
